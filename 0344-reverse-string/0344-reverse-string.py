@@ -3,4 +3,9 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        s.reverse()
+        # s.reverse()
+        i,n = 0, len(s)
+        while i < n :
+            s[i], s[n-1] = s[n-1], s[i]
+            i += 1
+            n -= 1
