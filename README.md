@@ -54,4 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/vanshkalawatia/DSA-Leetcode-Python/tree/master/0287-find-the-duplicate-number) |
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/vanshkalawatia/DSA-Leetcode-Python/tree/master/0007-reverse-integer) |
 <!---LeetCode Topics End-->
