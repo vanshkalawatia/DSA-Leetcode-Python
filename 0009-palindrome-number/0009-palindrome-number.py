@@ -3,11 +3,15 @@ class Solution:
         if x < 0 :
             return False
 
-        num = list(str(x))
+        num =x
+        rev = 0
 
-        num.reverse()
+        while num != 0:
 
-        if (list(str(x)) == num ):
-            return True
-        else:
+            rev = (rev *10 ) + (num % 10)
+            num = num // 10
+        
+        if rev == x :
+            return True 
+        else: 
             return False
